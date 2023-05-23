@@ -1,0 +1,27 @@
+---
+title: "r_exercise_5"
+format: html
+---
+
+Delete R memory
+
+```{r}
+rm(list=ls())
+
+```
+
+# Libraries
+
+```{r}
+library(readr)
+library(dplyr)
+library(ggplot2)
+library(sf)
+library(terra)
+library(tmap)
+library(gitcreds)
+library(dplyr)
+library(SimilarityMeasures)
+library(lubridate)
+
+```
